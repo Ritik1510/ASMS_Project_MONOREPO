@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx dev client",
+    "startTime": "2025-09-03T14:05:59.597Z",
+    "endTime": "2025-09-03T15:00:55.355Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "client:dev",
+      "target": "dev",
+      "projectName": "client",
+      "hash": "11893416745679137257",
+      "startTime": "2025-09-03T14:05:59.638Z",
+      "endTime": "2025-09-03T15:00:55.281Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}
