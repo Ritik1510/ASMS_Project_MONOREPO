@@ -1,0 +1,159 @@
+
+> client@0.0.0 dev C:\Users\SONY\Desktop\pnpm_nx_setup\apps\client
+> vite
+
+[2m7:36:03 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because lockfile has changed
+
+  [32m[1mVITE[22m v7.1.4[39m  [2mready in [0m[1m1547[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m7:38:26 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m7:39:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m7:39:14 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m7:39:17 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m7:39:46 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m7:44:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m7:44:36 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m7:44:48 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m7:47:05 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m8:18:07 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m8:18:16 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve entry for package "ui". The package may have incorrect main/module/exports specified in its package.json.[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/SONY/Desktop/pnpm_nx_setup/apps/client/src/App.tsx[39m:1:23
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Sample } from "ui";
+     |                          ^
+  18 |  import "./App.css";
+  19 |  function App() {[39m
+      at packageEntryFailure (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:12124:32)
+      at resolvePackageEntry (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:12121:2)
+      at tryNodeResolve (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:12022:17)
+      at ResolveIdContext.handler (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:11857:16)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async EnvironmentPluginContainer.resolveId (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31240:19)
+      at async TransformPluginContext.resolve (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31452:13)
+      at async normalizeUrl (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:29983:22)
+      at async file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:30049:32
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:30017:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31320:14)
+      at async loadAndTransform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:26407:26)
+[2m8:18:16 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve entry for package "ui". The package may have incorrect main/module/exports specified in its package.json.
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/SONY/Desktop/pnpm_nx_setup/apps/client/src/App.tsx[39m:1:23
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Sample } from "ui";
+     |                          ^
+  18 |  import "./App.css";
+  19 |  function App() {[39m
+[2m8:22:10 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m8:22:10 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve entry for package "ui". The package may have incorrect main/module/exports specified in its package.json.
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/SONY/Desktop/pnpm_nx_setup/apps/client/src/App.tsx[39m:1:23
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Sample } from "ui";
+     |                          ^
+  18 |  import "./App.css";
+  19 |  function App() {[39m
+[2m8:22:10 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve entry for package "ui". The package may have incorrect main/module/exports specified in its package.json.[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/SONY/Desktop/pnpm_nx_setup/apps/client/src/App.tsx[39m:1:23
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Sample } from "ui";
+     |                          ^
+  18 |  import "./App.css";
+  19 |  function App() {[39m
+      at packageEntryFailure (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:12124:32)
+      at resolvePackageEntry (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:12121:2)
+      at tryNodeResolve (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:12022:17)
+      at ResolveIdContext.handler (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:11857:16)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async EnvironmentPluginContainer.resolveId (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31240:19)
+      at async TransformPluginContext.resolve (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31452:13)
+      at async normalizeUrl (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:29983:22)
+      at async file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:30049:32
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:30017:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31320:14)
+      at async loadAndTransform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:26407:26)
+      at async viteTransformMiddleware (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:27492:20)
+[2m8:25:57 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve entry for package "ui". The package may have incorrect main/module/exports specified in its package.json.[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/SONY/Desktop/pnpm_nx_setup/apps/client/src/App.tsx[39m:1:23
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Sample } from "ui";
+     |                          ^
+  18 |  import "./App.css";
+  19 |  function App() {[39m
+      at packageEntryFailure (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:12124:32)
+      at resolvePackageEntry (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:12121:2)
+      at tryNodeResolve (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:12022:17)
+      at ResolveIdContext.handler (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:11857:16)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async EnvironmentPluginContainer.resolveId (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31240:19)
+      at async TransformPluginContext.resolve (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31452:13)
+      at async normalizeUrl (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:29983:22)
+      at async file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:30049:32
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:30017:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31320:14)
+      at async loadAndTransform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:26407:26)
+      at async viteTransformMiddleware (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:27492:20)
+[2m8:27:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m8:27:04 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "shared-ui" from "src/App.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/SONY/Desktop/pnpm_nx_setup/apps/client/src/App.tsx[39m:1:23
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Sample } from "shared-ui";
+     |                          ^
+  18 |  import "./App.css";
+  19 |  function App() {[39m
+[2m8:27:05 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "shared-ui" from "src/App.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/SONY/Desktop/pnpm_nx_setup/apps/client/src/App.tsx[39m:1:23
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Sample } from "shared-ui";
+     |                          ^
+  18 |  import "./App.css";
+  19 |  function App() {[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31522:43)
+      at TransformPluginContext.error (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31519:14)
+      at normalizeUrl (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:29991:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:30049:32
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:30017:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31320:14)
+      at async loadAndTransform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:26407:26)
+      at async viteTransformMiddleware (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:27492:20)
+[2m8:28:32 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/App.tsx[22m
+[2m8:29:37 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m8:29:37 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "shared-ui" from "src/App.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/SONY/Desktop/pnpm_nx_setup/apps/client/src/App.tsx[39m:2:21
+[33m  16 |  }
+  17 |  import "./App.css";
+  18 |  import { Sample } from "shared-ui";
+     |                          ^
+  19 |  function App() {
+  20 |    return /* @__PURE__ */ jsxDEV(Fragment, { children: /* @__PURE__ */ jsxDEV(Sample, {}, void 0, false, {[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31522:43)
+      at TransformPluginContext.error (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31519:14)
+      at normalizeUrl (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:29991:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:30049:32
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:30017:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:31320:14)
+      at async loadAndTransform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:26407:26)
+      at async viteTransformMiddleware (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@7.1.4/node_modules/vite/dist/node/chunks/dep-C6pp_iVS.js:27492:20)
+^C
