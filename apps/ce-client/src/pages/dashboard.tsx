@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "../components/ui/card";
 import { Button } from "../components/ui/button";
-import { MaintenanceRequest, Payment, Apartment, Visitor } from "@ce/db";
+import type { MaintenanceRequest, Payment, Apartment, Visitor } from "@ce/db";
 import { Progress } from "../components/ui/progress";
 import {
   Building2,

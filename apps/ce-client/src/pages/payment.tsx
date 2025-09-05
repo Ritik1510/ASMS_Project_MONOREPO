@@ -14,7 +14,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from 
 import { Form, FormField, FormItem, FormLabel, FormControl } from "../components/ui/form";
 import { Input } from "../components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";
-import { Apartment, Payment } from "@ce/db";
+import type { Apartment, Payment } from "@ce/db";
 import { useForm } from "react-hook-form";
 import { useToast } from "../hooks/use-toast";
 import { queryClient, apiRequest } from "../lib/queryClient";

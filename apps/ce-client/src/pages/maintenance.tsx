@@ -9,10 +9,12 @@ import {
   CardTitle,
 } from "../components/ui/card";
 import { Button } from "../components/ui/button";
-import { 
+import type { 
   MaintenanceRequest, 
-  insertMaintenanceRequestSchema,
   Apartment
+} from "@ce/db";
+import { 
+  insertMaintenanceRequestSchema,
 } from "@ce/db";
 import { 
   Wrench,

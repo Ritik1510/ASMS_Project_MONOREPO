@@ -9,7 +9,7 @@ import {
   CardTitle,
 } from "../components/ui/card";
 import { Button } from "../components/ui/button";
-import { Apartment, Payment } from "@ce/db";
+import type { Apartment, Payment } from "@ce/db";
 import { Building2, Edit, Users, DollarSign, AreaChart, Calendar, Package } from "lucide-react";
 import { format } from "date-fns";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "../components/ui/dialog";

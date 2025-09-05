@@ -9,7 +9,8 @@ import {
   CardTitle,
 } from "../components/ui/card";
 import { Button } from "../components/ui/button";
-import { Visitor, insertVisitorSchema } from "@ce/db";
+import { insertVisitorSchema } from "@ce/db";
+import type { Visitor } from "@ce/db";
 import { format } from "date-fns";
 import {
   UserPlus,
