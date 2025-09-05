@@ -1,6 +1,6 @@
 {
-  "name": "shared-ui",
   "private": true,
+  "name": "@ce/db",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -12,12 +12,13 @@
   "license": "ISC",
   "packageManager": "pnpm@10.15.1",
   "dependencies": {
-    "react": "^19.1.1",
-    "zod": "^3.25.76"
+    "@types/pg": "^8.15.5",
+    "drizzle-orm": "^0.44.5",
+    "drizzle-zod": "^0.8.3",
+    "pg": "^8.16.3",
+    "zod": "^4.1.5"
   },
   "devDependencies": {
-    "@types/react": "^19.1.12",
-    "@types/react-dom": "^19.1.9",
-    "typescript": "~5.8.3"
+    "typescript": "^5.9.2"
   }
 }
