@@ -1,0 +1,151 @@
+
+> ce-client@1.0.0 dev C:\Users\SONY\Desktop\pnpm_nx_setup\apps\ce-client
+> vite
+
+
+  [32m[1mVITE[22m v5.4.19[39m  [2mready in [0m[1m713[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m9:46:26 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/auth-page.tsx[22m
+[2m9:46:34 am[22m [31m[1m[vite][22m[39m Pre-transform error: C:\Users\SONY\Desktop\pnpm_nx_setup\apps\ce-client\src\pages\auth-page.tsx: Identifier 'InsertUser' has already been declared. (10:14)
+
+[0m [90m  8 |[39m [36mimport[39m { zodResolver } [36mfrom[39m [32m"@hookform/resolvers/zod"[39m[33m;[39m
+ [90m  9 |[39m [36mimport[39m { insertUserSchema[33m,[39m [33mInsertUser[39m } [36mfrom[39m [32m"@ce/db"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m type { [33mInsertUser[39m } [36mfrom[39m [32m"@ce/db"[39m[33m;[39m
+ [90m    |[39m               [31m[1m^[22m[39m
+ [90m 11 |[39m [36mimport[39m { [33mRedirect[39m } [36mfrom[39m [32m"wouter"[39m[33m;[39m
+ [90m 12 |[39m [36mimport[39m { [33mSelect[39m[33m,[39m [33mSelectContent[39m[33m,[39m [33mSelectItem[39m[33m,[39m [33mSelectTrigger[39m[33m,[39m [33mSelectValue[39m } [36mfrom[39m [32m"../components/ui/select"[39m[33m;[39m
+ [90m 13 |[39m [36mimport[39m { [33mBuilding2[39m } [36mfrom[39m [32m"lucide-react"[39m[33m;[39m[0m
+[2m9:46:35 am[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\SONY\Desktop\pnpm_nx_setup\apps\ce-client\src\pages\auth-page.tsx: Identifier 'InsertUser' has already been declared. (10:14)
+
+[0m [90m  8 |[31m [36mimport[31m { zodResolver } [36mfrom[31m [32m"@hookform/resolvers/zod"[31m[33m;[31m
+ [90m  9 |[31m [36mimport[31m { insertUserSchema[33m,[31m [33mInsertUser[31m } [36mfrom[31m [32m"@ce/db"[31m[33m;[31m
+[31m[1m>[22m[31m[90m 10 |[31m [36mimport[31m type { [33mInsertUser[31m } [36mfrom[31m [32m"@ce/db"[31m[33m;[31m
+ [90m    |[31m               [31m[1m^[22m[31m
+ [90m 11 |[31m [36mimport[31m { [33mRedirect[31m } [36mfrom[31m [32m"wouter"[31m[33m;[31m
+ [90m 12 |[31m [36mimport[31m { [33mSelect[31m[33m,[31m [33mSelectContent[31m[33m,[31m [33mSelectItem[31m[33m,[31m [33mSelectTrigger[31m[33m,[31m [33mSelectValue[31m } [36mfrom[31m [32m"../components/ui/select"[31m[33m;[31m
+ [90m 13 |[31m [36mimport[31m { [33mBuilding2[31m } [36mfrom[31m [32m"lucide-react"[31m[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/SONY/Desktop/pnpm_nx_setup/apps/ce-client/src/pages/auth-page.tsx[39m:10:14
+[33m  8  |  import { zodResolver } from "@hookform/resolvers/zod";
+  9  |  import { insertUserSchema, InsertUser } from "@ce/db";
+  10 |  import type { InsertUser } from "@ce/db";
+     |                ^
+  11 |  import { Redirect } from "wouter";
+  12 |  import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";[39m
+      at constructor (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:367:19)
+      at TypeScriptParserMixin.raise (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:6630:19)
+      at TypeScriptScopeHandler.declareName (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:4899:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:7594:16)
+      at TypeScriptParserMixin.checkIdentifier (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:7590:12)
+      at TypeScriptParserMixin.checkLVal (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:7529:12)
+      at TypeScriptParserMixin.finishImportSpecifier (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:14271:10)
+      at TypeScriptParserMixin.parseImportSpecifier (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:14428:17)
+      at TypeScriptParserMixin.parseImportSpecifier (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:10171:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:14407:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:14247:37)
+      at TypeScriptParserMixin.parseImport (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:9438:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:12881:27)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:9532:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:12772:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:12749:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:13321:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:13314:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:12630:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:12620:25)
+      at TypeScriptParserMixin.parse (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:14497:10)
+      at TypeScriptParserMixin.parse (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:10149:18)
+      at parse (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+parser@7.28.3\node_modules\@babel\parser\lib\index.js:14531:38)
+      at parser (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+core@7.28.3\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+core@7.28.3\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+core@7.28.3\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+core@7.28.3\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\gensync@1.0.0-beta.2\node_modules\gensync\index.js:261:32)
+      at C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\gensync@1.0.0-beta.2\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\gensync@1.0.0-beta.2\node_modules\gensync\index.js:223:11)
+      at C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\gensync@1.0.0-beta.2\node_modules\gensync\index.js:189:28
+      at C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@babel+core@7.28.3\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\gensync@1.0.0-beta.2\node_modules\gensync\index.js:113:33
+      at step (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\gensync@1.0.0-beta.2\node_modules\gensync\index.js:287:14)
+      at C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\gensync@1.0.0-beta.2\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\gensync@1.0.0-beta.2\node_modules\gensync\index.js:223:11)
+[2m9:47:18 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/auth-page.tsx[22m
+[2m9:58:37 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/dashboard.tsx[22m
+[2m9:58:37 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/dashboard.tsx[22m
+[2m10:00:10 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ui/form.tsx[22m
+[2m10:00:10 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ui/form.tsx[22m
+[2m10:00:50 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/visitors.tsx[22m
+[2m10:02:55 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/properties.tsx[22m
+[2m10:04:08 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/maintenance.tsx[22m
+[2m10:04:48 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/payment.tsx[22m
+[2m10:06:30 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ui/form.tsx[22m
+[2m10:15:59 am[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+[2m10:15:59 am[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+[2m10:16:58 am[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m10:16:59 am[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m10:16:59 am[22m [36m[1m[vite][22m[39m server restarted.
+[2m10:17:13 am[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[31mfailed to load config from C:\Users\SONY\Desktop\pnpm_nx_setup\apps\ce-client\vite.config.ts[39m
+[2m10:17:13 am[22m [31m[1m[vite][22m[39m tailwindcss is not defined
+[2m10:17:13 am[22m [31m[1m[vite][22m[39m server restart failed
+[2m10:17:28 am[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[31mfailed to load config from C:\Users\SONY\Desktop\pnpm_nx_setup\apps\ce-client\vite.config.ts[39m
+[2m10:17:28 am[22m [31m[1m[vite][22m[39m Cannot find package '@tailwindcss/vite' imported from C:\Users\SONY\Desktop\pnpm_nx_setup\apps\ce-client\vite.config.ts.timestamp-1757047648793-7bab1113bc1a6.mjs
+[2m10:17:28 am[22m [31m[1m[vite][22m[39m server restart failed
+[2m10:24:32 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m10:24:32 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m10:24:32 am[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] postcss-import: C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\tailwindcss@3.4.17\node_modules\tailwindcss\lib\index.js:1:1: Unknown word "use strict"[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/tailwindcss@3.4.17/node_modules/tailwindcss/lib/index.js[39m:1:0
+[33m  1  |  "use strict";
+     |  ^
+  2  |  module.exports = require("./plugin");
+  3  |  [39m
+      at Input.error (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\input.js:135:16)
+      at Parser.unknownWord (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\parser.js:595:22)
+      at Parser.other (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\parser.js:437:12)
+      at Parser.parse (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\parser.js:472:16)
+      at parse (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\parse.js:11:12)
+      at get root (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\no-work-result.js:43:14)
+      at Result.get [as root] (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\no-work-result.js:77:21)
+      at loadImportContent (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-COdkJwUb.js:867:33)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-COdkJwUb.js:800:27)
+      at async parseStyles$1 (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-COdkJwUb.js:708:5)
+      at async Object.Once (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-COdkJwUb.js:965:22)
+      at async LazyResult.runAsync (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\lazy-result.js:293:11)
+      at async compileCSS (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:36898:21)
+      at async TransformPluginContext.transform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:36171:11)
+      at async PluginContainer.transform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+[2m10:24:32 am[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] postcss-import: C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\tailwindcss@3.4.17\node_modules\tailwindcss\lib\index.js:1:1: Unknown word "use strict"[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/tailwindcss@3.4.17/node_modules/tailwindcss/lib/index.js[39m:1:0
+[33m  1  |  "use strict";
+     |  ^
+  2  |  module.exports = require("./plugin");
+  3  |  [39m
+      at Input.error (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\input.js:135:16)
+      at Parser.unknownWord (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\parser.js:595:22)
+      at Parser.other (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\parser.js:437:12)
+      at Parser.parse (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\parser.js:472:16)
+      at parse (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\parse.js:11:12)
+      at get root (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\no-work-result.js:43:14)
+      at Result.get [as root] (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\no-work-result.js:77:21)
+      at loadImportContent (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-COdkJwUb.js:867:33)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-COdkJwUb.js:800:27)
+      at async parseStyles$1 (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-COdkJwUb.js:708:5)
+      at async Object.Once (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-COdkJwUb.js:965:22)
+      at async LazyResult.runAsync (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\postcss@8.5.6\node_modules\postcss\lib\lazy-result.js:293:11)
+      at async compileCSS (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:36898:21)
+      at async TransformPluginContext.transform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:36171:11)
+      at async PluginContainer.transform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/SONY/Desktop/pnpm_nx_setup/node_modules/.pnpm/vite@5.4.19_@types+node@24.3.1/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+^C
