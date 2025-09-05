@@ -10,6 +10,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.15.1",
   "devDependencies": {
-    "nx": "^21.4.1"
+    "nx": "^21.4.1",
+    "tailwindcss": "^4.1.13"
   }
 }

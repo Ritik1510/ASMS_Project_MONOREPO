@@ -1,0 +1,32 @@
+
+> ce-client@1.0.0 build C:\Users\SONY\Desktop\pnpm_nx_setup\apps\ce-client
+> vite build
+
+[36mvite v5.4.19 [32mbuilding for production...[36m[39m
+transforming...
+src/pages/auth-page.tsx (9:27): "InsertUser" is not exported by "../../packages/db/dist/index.js", imported by "src/pages/auth-page.tsx".
+src/pages/dashboard.tsx (11:9): "MaintenanceRequest" is not exported by "../../packages/db/dist/index.js", imported by "src/pages/dashboard.tsx".
+src/pages/dashboard.tsx (11:29): "Payment" is not exported by "../../packages/db/dist/index.js", imported by "src/pages/dashboard.tsx".
+src/pages/dashboard.tsx (11:38): "Apartment" is not exported by "../../packages/db/dist/index.js", imported by "src/pages/dashboard.tsx".
+src/pages/dashboard.tsx (11:49): "Visitor" is not exported by "../../packages/db/dist/index.js", imported by "src/pages/dashboard.tsx".
+src/components/ui/form.tsx (6:2): "ControllerProps" is not exported by "../../node_modules/.pnpm/react-hook-form@7.62.0_react@18.3.1/node_modules/react-hook-form/dist/index.esm.mjs", imported by "src/components/ui/form.tsx".
+src/components/ui/form.tsx (7:2): "FieldPath" is not exported by "../../node_modules/.pnpm/react-hook-form@7.62.0_react@18.3.1/node_modules/react-hook-form/dist/index.esm.mjs", imported by "src/components/ui/form.tsx".
+src/components/ui/form.tsx (8:2): "FieldValues" is not exported by "../../node_modules/.pnpm/react-hook-form@7.62.0_react@18.3.1/node_modules/react-hook-form/dist/index.esm.mjs", imported by "src/components/ui/form.tsx".
+src/pages/visitors.tsx (12:9): "Visitor" is not exported by "../../packages/db/dist/index.js", imported by "src/pages/visitors.tsx".
+src/pages/properties.tsx (12:9): "Apartment" is not exported by "../../packages/db/dist/index.js", imported by "src/pages/properties.tsx".
+src/pages/properties.tsx (12:20): "Payment" is not exported by "../../packages/db/dist/index.js", imported by "src/pages/properties.tsx".
+src/pages/maintenance.tsx (13:2): "MaintenanceRequest" is not exported by "../../packages/db/dist/index.js", imported by "src/pages/maintenance.tsx".
+src/pages/maintenance.tsx (15:2): "Apartment" is not exported by "../../packages/db/dist/index.js", imported by "src/pages/maintenance.tsx".
+src/pages/payment.tsx (17:9): "Apartment" is not exported by "../../packages/db/dist/index.js", imported by "src/pages/payment.tsx".
+src/pages/payment.tsx (17:20): "Payment" is not exported by "../../packages/db/dist/index.js", imported by "src/pages/payment.tsx".
+[32m✓[39m 2204 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                [39m[1m[2m  0.31 kB[22m[1m[22m[2m │ gzip:   0.23 kB[22m
+[33m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[2mdist/[22m[36massets/index-CpU_QVGj.js  [39m[1m[33m674.90 kB[39m[22m[2m │ gzip: 194.62 kB[22m
+[32m✓ built in 14.28s[39m

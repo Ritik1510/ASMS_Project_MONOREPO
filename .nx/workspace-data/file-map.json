@@ -5,108 +5,495 @@
   "nxJsonPlugins": [],
   "fileMap": {
     "projectFileMap": {
-      "ui": [
+      "ce-client": [
         {
-          "file": "packages/ui/Button.tsx",
-          "hash": "5254011727906319622"
+          "file": "apps/ce-client/.gitignore",
+          "hash": "13046175384202504187"
         },
         {
-          "file": "packages/ui/index.tsx",
-          "hash": "11213580814434039892"
+          "file": "apps/ce-client/README.md",
+          "hash": "230519711145761115"
         },
         {
-          "file": "packages/ui/package.json",
-          "hash": "15268167409494472900",
+          "file": "apps/ce-client/eslint.config.js",
+          "hash": "142212017292357276"
+        },
+        {
+          "file": "apps/ce-client/index.html",
+          "hash": "6564126411943971201"
+        },
+        {
+          "file": "apps/ce-client/package.json",
+          "hash": "7849750871025454713",
           "deps": [
-            "npm:typescript",
-            "npm:react"
+            "npm:@tailwindcss/typography",
+            "npm:@types/react@18.3.24",
+            "npm:@types/react-dom@18.3.7",
+            "npm:@vitejs/plugin-react@4.7.0",
+            "npm:autoprefixer",
+            "npm:postcss",
+            "npm:typescript@5.6.3",
+            "npm:vite@5.4.19",
+            "@ce/db",
+            "npm:@hookform/resolvers",
+            "npm:@radix-ui/react-accordion",
+            "npm:@radix-ui/react-alert-dialog",
+            "npm:@radix-ui/react-aspect-ratio",
+            "npm:@radix-ui/react-avatar",
+            "npm:@radix-ui/react-checkbox",
+            "npm:@radix-ui/react-collapsible",
+            "npm:@radix-ui/react-context-menu",
+            "npm:@radix-ui/react-dialog",
+            "npm:@radix-ui/react-dropdown-menu",
+            "npm:@radix-ui/react-hover-card",
+            "npm:@radix-ui/react-label",
+            "npm:@radix-ui/react-menubar",
+            "npm:@radix-ui/react-navigation-menu",
+            "npm:@radix-ui/react-popover",
+            "npm:@radix-ui/react-progress",
+            "npm:@radix-ui/react-radio-group",
+            "npm:@radix-ui/react-scroll-area",
+            "npm:@radix-ui/react-select",
+            "npm:@radix-ui/react-separator",
+            "npm:@radix-ui/react-slider",
+            "npm:@radix-ui/react-slot",
+            "npm:@radix-ui/react-switch",
+            "npm:@radix-ui/react-tabs",
+            "npm:@radix-ui/react-toast",
+            "npm:@radix-ui/react-toggle",
+            "npm:@radix-ui/react-toggle-group",
+            "npm:@radix-ui/react-tooltip",
+            "npm:@tailwindcss/vite",
+            "npm:@tanstack/react-query",
+            "npm:class-variance-authority",
+            "npm:clsx",
+            "npm:cmdk",
+            "npm:date-fns",
+            "npm:embla-carousel-react",
+            "npm:framer-motion",
+            "npm:input-otp",
+            "npm:lucide-react",
+            "npm:react@18.3.1",
+            "npm:react-day-picker",
+            "npm:react-dom@18.3.1",
+            "npm:react-hook-form",
+            "npm:react-icons",
+            "npm:react-resizable-panels",
+            "npm:recharts",
+            "shared-ui",
+            "npm:tailwind-merge",
+            "npm:tailwindcss@3.4.17",
+            "npm:tailwindcss-animate",
+            "npm:vaul",
+            "npm:wouter",
+            "npm:zod@3.25.76",
+            "npm:zod-validation-error"
           ]
         },
         {
-          "file": "packages/ui/tsconfig.json",
-          "hash": "12412474864789468700"
+          "file": "apps/ce-client/src/App.tsx",
+          "hash": "13763443793981107875"
+        },
+        {
+          "file": "apps/ce-client/src/components/UpiPayment.tsx",
+          "hash": "4200356615273446658"
+        },
+        {
+          "file": "apps/ce-client/src/components/layout.tsx",
+          "hash": "4857371277405452656"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/accordion.tsx",
+          "hash": "6257564322165930621"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/alert-dialog.tsx",
+          "hash": "15642933571612310442"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/alert.tsx",
+          "hash": "10255547762037131450"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/aspect-ratio.tsx",
+          "hash": "12340592216594228921"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/avatar.tsx",
+          "hash": "10202447315480715448"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/badge.tsx",
+          "hash": "16753524560755209141"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/breadcrumb.tsx",
+          "hash": "11222998702012338082"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/button.tsx",
+          "hash": "14007626566810259773"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/calendar.tsx",
+          "hash": "10512492944110557893"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/card.tsx",
+          "hash": "3652894729293342239"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/carousel.tsx",
+          "hash": "13161034679570755090"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/chart.tsx",
+          "hash": "15610772990242250806"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/checkbox.tsx",
+          "hash": "16363398334354619664"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/collapsible.tsx",
+          "hash": "8040382521055521536"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/command.tsx",
+          "hash": "17142662156011007768"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/context-menu.tsx",
+          "hash": "6053005750561960983"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/dialog.tsx",
+          "hash": "7892677242608294340"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/drawer.tsx",
+          "hash": "14438196692573286567"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/dropdown-menu.tsx",
+          "hash": "16017361556568573357"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/form.tsx",
+          "hash": "492235921205189207"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/hover-card.tsx",
+          "hash": "11751696187444658671"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/input-otp.tsx",
+          "hash": "6158082505446409061"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/input.tsx",
+          "hash": "10148172728477172823"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/label.tsx",
+          "hash": "1666018716549472265"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/menubar.tsx",
+          "hash": "3177570353387054097"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/navigation-menu.tsx",
+          "hash": "281140050760933034"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/pagination.tsx",
+          "hash": "6540597707285961485"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/popover.tsx",
+          "hash": "2125782828176170162"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/progress.tsx",
+          "hash": "3115793945441552989"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/radio-group.tsx",
+          "hash": "9019062145555479003"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/resizable.tsx",
+          "hash": "11078293106267339695"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/scroll-area.tsx",
+          "hash": "12444264249399453430"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/select.tsx",
+          "hash": "14336162277012118124"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/separator.tsx",
+          "hash": "7145082963836180978"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/sheet.tsx",
+          "hash": "14366163307811370544"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/sidebar.tsx",
+          "hash": "14762767922030667207"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/skeleton.tsx",
+          "hash": "8783692536247132020"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/slider.tsx",
+          "hash": "11403750842941374101"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/switch.tsx",
+          "hash": "16554961799971491744"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/table.tsx",
+          "hash": "6147461158137448265"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/tabs.tsx",
+          "hash": "9631231012101589602"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/textarea.tsx",
+          "hash": "15947346629906301516"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/toast.tsx",
+          "hash": "15454285956282758435"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/toaster.tsx",
+          "hash": "13288927412049918004"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/toggle-group.tsx",
+          "hash": "6873628514301259058"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/toggle.tsx",
+          "hash": "4910222277315170228"
+        },
+        {
+          "file": "apps/ce-client/src/components/ui/tooltip.tsx",
+          "hash": "1728827062427895901"
+        },
+        {
+          "file": "apps/ce-client/src/hooks/use-auth.tsx",
+          "hash": "10165581562012145983"
+        },
+        {
+          "file": "apps/ce-client/src/hooks/use-mobile.tsx",
+          "hash": "14900138732519213047"
+        },
+        {
+          "file": "apps/ce-client/src/hooks/use-toast.ts",
+          "hash": "2021270094555277638"
+        },
+        {
+          "file": "apps/ce-client/src/index.css",
+          "hash": "13426361956220309443"
+        },
+        {
+          "file": "apps/ce-client/src/lib/protected-route.tsx",
+          "hash": "10357509466578750091"
+        },
+        {
+          "file": "apps/ce-client/src/lib/queryClient.ts",
+          "hash": "1123549157735773238"
+        },
+        {
+          "file": "apps/ce-client/src/lib/utils.ts",
+          "hash": "6483145186850064023"
+        },
+        {
+          "file": "apps/ce-client/src/main.tsx",
+          "hash": "15569870717294108834"
+        },
+        {
+          "file": "apps/ce-client/src/pages/auth-page.tsx",
+          "hash": "7396810580306789105"
+        },
+        {
+          "file": "apps/ce-client/src/pages/dashboard.tsx",
+          "hash": "18203568201260050458"
+        },
+        {
+          "file": "apps/ce-client/src/pages/maintenance.tsx",
+          "hash": "11442299294962443130"
+        },
+        {
+          "file": "apps/ce-client/src/pages/not-found.tsx",
+          "hash": "3899368079882562132"
+        },
+        {
+          "file": "apps/ce-client/src/pages/payment.tsx",
+          "hash": "14272208344766973140"
+        },
+        {
+          "file": "apps/ce-client/src/pages/properties.tsx",
+          "hash": "12000635043517013552"
+        },
+        {
+          "file": "apps/ce-client/src/pages/visitors.tsx",
+          "hash": "12838911799111473825"
+        },
+        {
+          "file": "apps/ce-client/tsconfig.app.json",
+          "hash": "1819537451871102174"
+        },
+        {
+          "file": "apps/ce-client/tsconfig.json",
+          "hash": "2365188958523842680"
+        },
+        {
+          "file": "apps/ce-client/tsconfig.node.json",
+          "hash": "332901305419936550"
+        },
+        {
+          "file": "apps/ce-client/vite.config.ts",
+          "hash": "2744733760558038448"
+        }
+      ],
+      "shared-ui": [
+        {
+          "file": "packages/shared-ui/index.tsx",
+          "hash": "17906714113424732712"
+        },
+        {
+          "file": "packages/shared-ui/package.json",
+          "hash": "6327900429874178652",
+          "deps": [
+            "npm:@types/react@19.1.12",
+            "npm:@types/react-dom@19.1.9",
+            "npm:typescript@5.8.3",
+            "npm:react@19.1.1",
+            "npm:zod@3.25.76"
+          ]
+        },
+        {
+          "file": "packages/shared-ui/ui/Sample.tsx",
+          "hash": "15738597830850664157"
         }
       ],
       "client": [
         {
-          "file": "apps/client/.gitignore",
+          "file": "apps/test-client/.gitignore",
           "hash": "13046175384202504187"
         },
         {
-          "file": "apps/client/README.md",
+          "file": "apps/test-client/README.md",
           "hash": "230519711145761115"
         },
         {
-          "file": "apps/client/eslint.config.js",
+          "file": "apps/test-client/eslint.config.js",
           "hash": "142212017292357276"
         },
         {
-          "file": "apps/client/index.html",
+          "file": "apps/test-client/index.html",
           "hash": "4025202329384162906"
         },
         {
-          "file": "apps/client/package.json",
-          "hash": "8368332140460456519",
+          "file": "apps/test-client/package.json",
+          "hash": "14776081154278964544",
           "deps": [
             "npm:@eslint/js",
-            "npm:@types/react",
-            "npm:@types/react-dom",
-            "npm:@vitejs/plugin-react",
+            "npm:@types/react@19.1.12",
+            "npm:@types/react-dom@19.1.9",
+            "npm:@vitejs/plugin-react@5.0.2",
             "npm:eslint",
             "npm:eslint-plugin-react-hooks",
             "npm:eslint-plugin-react-refresh",
             "npm:globals@16.3.0",
-            "npm:typescript",
+            "npm:typescript@5.8.3",
             "npm:typescript-eslint",
-            "npm:vite",
-            "npm:react",
-            "npm:react-dom",
-            "ui"
+            "npm:vite@7.1.4",
+            "npm:react@19.1.1",
+            "npm:react-dom@19.1.1",
+            "shared-ui"
           ]
         },
         {
-          "file": "apps/client/public/vite.svg",
+          "file": "apps/test-client/public/vite.svg",
           "hash": "16046085400642193116"
         },
         {
-          "file": "apps/client/src/App.css",
+          "file": "apps/test-client/src/App.css",
           "hash": "3739391659270974612"
         },
         {
-          "file": "apps/client/src/App.tsx",
-          "hash": "17933810854557417374"
+          "file": "apps/test-client/src/App.tsx",
+          "hash": "1519136803829741833"
         },
         {
-          "file": "apps/client/src/assets/react.svg",
+          "file": "apps/test-client/src/assets/react.svg",
           "hash": "16069471864800376455"
         },
         {
-          "file": "apps/client/src/index.css",
+          "file": "apps/test-client/src/index.css",
           "hash": "13504153635654440336"
         },
         {
-          "file": "apps/client/src/main.tsx",
+          "file": "apps/test-client/src/main.tsx",
           "hash": "11038211546439381838"
         },
         {
-          "file": "apps/client/src/vite-env.d.ts",
+          "file": "apps/test-client/src/vite-env.d.ts",
           "hash": "12946363841406869089"
         },
         {
-          "file": "apps/client/tsconfig.app.json",
+          "file": "apps/test-client/tsconfig.app.json",
           "hash": "17915403376949929233"
         },
         {
-          "file": "apps/client/tsconfig.json",
+          "file": "apps/test-client/tsconfig.json",
           "hash": "2365188958523842680"
         },
         {
-          "file": "apps/client/tsconfig.node.json",
+          "file": "apps/test-client/tsconfig.node.json",
           "hash": "12526670948656573966"
         },
         {
-          "file": "apps/client/vite.config.ts",
+          "file": "apps/test-client/vite.config.ts",
           "hash": "16225914092815047172"
+        }
+      ],
+      "@ce/db": [
+        {
+          "file": "packages/db/index.ts",
+          "hash": "541768958572470498"
+        },
+        {
+          "file": "packages/db/package.json",
+          "hash": "16023803207424178264",
+          "deps": [
+            "npm:typescript@5.9.2",
+            "npm:@types/pg",
+            "npm:drizzle-orm",
+            "npm:drizzle-zod",
+            "npm:pg",
+            "npm:zod@4.1.5"
+          ]
+        },
+        {
+          "file": "packages/db/schemas.ts",
+          "hash": "6823666895664002600"
+        },
+        {
+          "file": "packages/db/tsconfig.json",
+          "hash": "584633282280055937"
         }
       ]
     },
@@ -117,19 +504,19 @@
       },
       {
         "file": "LEARNINGS.md",
-        "hash": "4573831321668167421"
+        "hash": "10646244213598534917"
       },
       {
-        "file": "apps/server/.gitkeep",
+        "file": "apps/test-server/.gitkeep",
         "hash": "3244421341483603138"
       },
       {
         "file": "package.json",
-        "hash": "5523324101950141427"
+        "hash": "102928320590637852"
       },
       {
         "file": "pnpm-lock.yaml",
-        "hash": "8227466983007933438"
+        "hash": "1078109329057954417"
       },
       {
         "file": "pnpm-workspace.yaml",

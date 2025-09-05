@@ -1,0 +1,17 @@
+
+> ce-client@1.0.0 dev C:\Users\SONY\Desktop\pnpm_nx_setup\apps\ce-client
+> vite
+
+[31mfailed to load config from C:\Users\SONY\Desktop\pnpm_nx_setup\apps\ce-client\vite.config.ts[39m
+[31merror when starting dev server:
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@tailwindcss/vite' imported from C:\Users\SONY\Desktop\pnpm_nx_setup\apps\ce-client\vite.config.ts.timestamp-1757101415583-618344e02203b.mjs
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:256:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:854:18)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:175:49)[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
