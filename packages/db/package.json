@@ -5,7 +5,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -rf dist && tsc"
+    "build": "rm -rf dist && tsc",
+    "prepare": "pnpm build"
   },
   "keywords": [],
   "author": "",
