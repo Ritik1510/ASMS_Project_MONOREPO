@@ -11,4 +11,9 @@ export default defineConfig({
       "@": path.resolve(__dirname, "ce-client/src"),
     }
   },
+  server: {
+    proxy: {
+      '/api': 'http://localhost:8000'
+    }
+  }
 })
