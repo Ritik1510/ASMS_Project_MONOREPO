@@ -27,7 +27,8 @@ export default function AuthPage() {
     defaultValues: {
       username: "",
       password: "",
-      name: "",
+      fullName: "",
+      email: "",
       role: "tenant",
     },
   });
@@ -115,7 +116,15 @@ export default function AuthPage() {
                       <Label htmlFor="name">Full Name</Label>
                       <Input
                         id="name"
-                        {...registerForm.register("name")}
+                        {...registerForm.register("fullName")}
+                      />
+                    </div>
+                    <div className="space-y-2">
+                      <Label htmlFor="reg-email">Email</Label>
+                      <Input
+                        id="reg-email"
+                        type="email"
+                        {...registerForm.register("email")}
                       />
                     </div>
                     <div className="space-y-2">
