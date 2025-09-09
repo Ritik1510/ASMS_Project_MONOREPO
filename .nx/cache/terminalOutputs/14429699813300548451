@@ -1,0 +1,247 @@
+
+> cp-server@1.0.0 dev C:\Users\SONY\Desktop\pnpm_nx_setup\apps\cp-server
+> nodemon -r dotenv/config ./src/index.ts
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): src\**\* config\**\*[39m
+[33m[nodemon] watching extensions: js,json,ts[39m
+[32m[nodemon] starting `ts-node -r dotenv/config ./src/index.ts`[39m
+'Nodemon started'
+C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/user.controllers.ts(16,30): error TS2339: Property 'generateAccesstoken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: unknown; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(17,31): error TS2339: Property 'generateRefreshtoken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: unknown; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(19,10): error TS2339: Property 'refreshToken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: unknown; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(107,5): error TS2345: Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/controllers/user.controllers.ts(145,9): error TS2339: Property 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/controllers/user.controllers.ts(179,37): error TS2551: Property 'cookie' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'. Did you mean 'cookies'?
+src/controllers/user.controllers.ts(189,60): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Buffer<ArrayBufferLike> | Secret | PublicKeyInput | JsonWebKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Buffer<ArrayBufferLike> | Secret | PublicKeyInput | JsonWebKeyInput | GetPublicKeyOrSecret'.
+src/controllers/user.controllers.ts(192,52): error TS2339: Property '_id' does not exist on type 'never'.
+src/controllers/user.controllers.ts(200,41): error TS2339: Property 'refreshToken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: unknown; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(205,13): error TS2339: Property 'newAccessToken' does not exist on type '{ accessToken: any; refreshToken: any; }'.
+src/controllers/user.controllers.ts(205,29): error TS2339: Property 'newRefreshToken' does not exist on type '{ accessToken: any; refreshToken: any; }'.
+src/controllers/user.controllers.ts(205,100): error TS2339: Property '_id' does not exist on type 'never'.
+
+    at createTSError (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [
+    2339, 2339, 2339,
+    2345, 2339, 2551,
+    2769, 2339, 2339,
+    2339, 2339, 2339
+  ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config ./src/index.ts`[39m
+'Nodemon started'
+'Restarting application...'
+C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/user.controllers.ts(16,30): error TS2339: Property 'generateAccesstoken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: unknown; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(17,31): error TS2339: Property 'generateRefreshtoken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: unknown; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(19,10): error TS2339: Property 'refreshToken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: unknown; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(107,5): error TS2345: Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/controllers/user.controllers.ts(145,9): error TS2339: Property 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/controllers/user.controllers.ts(179,37): error TS2551: Property 'cookie' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'. Did you mean 'cookies'?
+src/controllers/user.controllers.ts(189,60): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Buffer<ArrayBufferLike> | Secret | PublicKeyInput | JsonWebKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Buffer<ArrayBufferLike> | Secret | PublicKeyInput | JsonWebKeyInput | GetPublicKeyOrSecret'.
+src/controllers/user.controllers.ts(192,52): error TS2339: Property '_id' does not exist on type 'never'.
+src/controllers/user.controllers.ts(200,41): error TS2339: Property 'refreshToken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: unknown; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(205,13): error TS2339: Property 'newAccessToken' does not exist on type '{ accessToken: any; refreshToken: any; }'.
+src/controllers/user.controllers.ts(205,29): error TS2339: Property 'newRefreshToken' does not exist on type '{ accessToken: any; refreshToken: any; }'.
+src/controllers/user.controllers.ts(205,100): error TS2339: Property '_id' does not exist on type 'never'.
+
+    at createTSError (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [
+    2339, 2339, 2339,
+    2345, 2339, 2551,
+    2769, 2339, 2339,
+    2339, 2339, 2339
+  ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config ./src/index.ts`[39m
+'Nodemon started'
+'Restarting application...'
+C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/user.controllers.ts(19,10): error TS2339: Property 'refreshToken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: unknown; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(107,5): error TS2345: Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/controllers/user.controllers.ts(145,9): error TS2339: Property 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/controllers/user.controllers.ts(179,37): error TS2551: Property 'cookie' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'. Did you mean 'cookies'?
+src/controllers/user.controllers.ts(189,60): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Buffer<ArrayBufferLike> | Secret | PublicKeyInput | JsonWebKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Buffer<ArrayBufferLike> | Secret | PublicKeyInput | JsonWebKeyInput | GetPublicKeyOrSecret'.
+src/controllers/user.controllers.ts(192,52): error TS2339: Property '_id' does not exist on type 'never'.
+src/controllers/user.controllers.ts(200,41): error TS2339: Property 'refreshToken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: unknown; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(205,13): error TS2339: Property 'newAccessToken' does not exist on type '{ accessToken: string; refreshToken: string; }'.
+src/controllers/user.controllers.ts(205,29): error TS2339: Property 'newRefreshToken' does not exist on type '{ accessToken: string; refreshToken: string; }'.
+src/controllers/user.controllers.ts(205,100): error TS2339: Property '_id' does not exist on type 'never'.
+
+    at createTSError (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [
+    2339, 2345, 2339,
+    2551, 2769, 2339,
+    2339, 2339, 2339,
+    2339
+  ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config ./src/index.ts`[39m
+'Nodemon started'
+'Restarting application...'
+C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/user.controllers.ts(19,10): error TS2339: Property 'refreshToken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: string; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(145,9): error TS2339: Property 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/controllers/user.controllers.ts(179,37): error TS2551: Property 'cookie' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'. Did you mean 'cookies'?
+src/controllers/user.controllers.ts(189,60): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Buffer<ArrayBufferLike> | Secret | PublicKeyInput | JsonWebKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Buffer<ArrayBufferLike> | Secret | PublicKeyInput | JsonWebKeyInput | GetPublicKeyOrSecret'.
+src/controllers/user.controllers.ts(192,52): error TS2339: Property '_id' does not exist on type 'never'.
+src/controllers/user.controllers.ts(200,41): error TS2339: Property 'refreshToken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: string; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(205,13): error TS2339: Property 'newAccessToken' does not exist on type '{ accessToken: string; refreshToken: string; }'.
+src/controllers/user.controllers.ts(205,29): error TS2339: Property 'newRefreshToken' does not exist on type '{ accessToken: string; refreshToken: string; }'.
+src/controllers/user.controllers.ts(205,100): error TS2339: Property '_id' does not exist on type 'never'.
+
+    at createTSError (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [
+    2339, 2339, 2551,
+    2769, 2339, 2339,
+    2339, 2339, 2339
+  ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config ./src/index.ts`[39m
+'Nodemon started'
+'Restarting application...'
+C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/user.controllers.ts(19,10): error TS2339: Property 'refreshToken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: string; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(145,9): error TS2339: Property 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/controllers/user.controllers.ts(179,37): error TS2551: Property 'cookie' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'. Did you mean 'cookies'?
+src/controllers/user.controllers.ts(189,60): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Buffer<ArrayBufferLike> | Secret | PublicKeyInput | JsonWebKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Buffer<ArrayBufferLike> | Secret | PublicKeyInput | JsonWebKeyInput | GetPublicKeyOrSecret'.
+src/controllers/user.controllers.ts(192,52): error TS2339: Property '_id' does not exist on type 'never'.
+src/controllers/user.controllers.ts(200,41): error TS2339: Property 'refreshToken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: string; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(205,13): error TS2339: Property 'newAccessToken' does not exist on type '{ accessToken: string; refreshToken: string; }'.
+src/controllers/user.controllers.ts(205,29): error TS2339: Property 'newRefreshToken' does not exist on type '{ accessToken: string; refreshToken: string; }'.
+src/controllers/user.controllers.ts(205,100): error TS2339: Property '_id' does not exist on type 'never'.
+
+    at createTSError (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [
+    2339, 2339, 2551,
+    2769, 2339, 2339,
+    2339, 2339, 2339
+  ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config ./src/index.ts`[39m
+'Nodemon started'
+'Restarting application...'
+C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/user.controllers.ts(19,10): error TS2339: Property 'refreshToken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: string; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(145,9): error TS2339: Property 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/controllers/user.controllers.ts(179,37): error TS2551: Property 'cookie' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'. Did you mean 'cookies'?
+src/controllers/user.controllers.ts(189,60): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Buffer<ArrayBufferLike> | Secret | PublicKeyInput | JsonWebKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Buffer<ArrayBufferLike> | Secret | PublicKeyInput | JsonWebKeyInput | GetPublicKeyOrSecret'.
+src/controllers/user.controllers.ts(192,52): error TS2339: Property '_id' does not exist on type 'never'.
+src/controllers/user.controllers.ts(200,41): error TS2339: Property 'refreshToken' does not exist on type 'Document<unknown, {}, IUser, {}, {}> & IUser & Required<{ _id: string; }> & { __v: number; }'.
+src/controllers/user.controllers.ts(205,13): error TS2339: Property 'newAccessToken' does not exist on type '{ accessToken: string; refreshToken: string; }'.
+src/controllers/user.controllers.ts(205,29): error TS2339: Property 'newRefreshToken' does not exist on type '{ accessToken: string; refreshToken: string; }'.
+src/controllers/user.controllers.ts(205,100): error TS2339: Property '_id' does not exist on type 'never'.
+
+    at createTSError (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [
+    2339, 2339, 2551,
+    2769, 2339, 2339,
+    2339, 2339, 2339
+  ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting child process[39m
+[32m[nodemon] starting `ts-node -r dotenv/config ./src/index.ts`[39m
+'Restarting application...'
+'Nodemon started'

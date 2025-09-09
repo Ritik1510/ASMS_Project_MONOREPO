@@ -1,0 +1,65 @@
+
+> cp-server@1.0.0 dev
+> nodemon -r dotenv/config tsc ./src/index.ts
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): src\**\* config\**\*[39m
+[33m[nodemon] watching extensions: js,json,ts[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsc ./src/index.ts`[39m
+'Nodemon started'
+node:internal/modules/cjs/loader:1404
+  throw err;
+  ^
+
+Error: Cannot find module './tsc'
+Require stack:
+- C:\Users\SONY\Desktop\pnpm_nx_setup\apps\cp-server\imaginaryUncacheableRequireResolveScript
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[90m    at Function.resolve (node:internal/modules/helpers:145:19)[39m
+    at requireResolveNonCached (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\[4m.pnpm[24m\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\[4mts-node[24m\dist\bin.js:549:16)
+    at getProjectSearchDir (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\[4m.pnpm[24m\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\[4mts-node[24m\dist\bin.js:519:40)
+    at phase3 (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\[4m.pnpm[24m\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\[4mts-node[24m\dist\bin.js:267:27)
+    at bootstrap (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\[4m.pnpm[24m\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\[4mts-node[24m\dist\bin.js:47:30)
+    at main (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\[4m.pnpm[24m\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\[4mts-node[24m\dist\bin.js:33:12)
+    at Object.<anonymous> (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\[4m.pnpm[24m\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\[4mts-node[24m\dist\bin.js:579:5)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[90m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m {
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  requireStack: [
+    [32m'C:\\Users\\SONY\\Desktop\\pnpm_nx_setup\\apps\\cp-server\\imaginaryUncacheableRequireResolveScript'[39m
+  ]
+}
+
+Node.js v22.17.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting child process[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsc ./src/index.ts`[39m
+'Nodemon started'
+'Restarting application...'
+node:internal/modules/cjs/loader:1404
+  throw err;
+  ^
+
+Error: Cannot find module './tsc'
+Require stack:
+- C:\Users\SONY\Desktop\pnpm_nx_setup\apps\cp-server\imaginaryUncacheableRequireResolveScript
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[90m    at Function.resolve (node:internal/modules/helpers:145:19)[39m
+    at requireResolveNonCached (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\[4m.pnpm[24m\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\[4mts-node[24m\dist\bin.js:549:16)
+    at getProjectSearchDir (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\[4m.pnpm[24m\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\[4mts-node[24m\dist\bin.js:519:40)
+    at phase3 (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\[4m.pnpm[24m\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\[4mts-node[24m\dist\bin.js:267:27)
+    at bootstrap (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\[4m.pnpm[24m\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\[4mts-node[24m\dist\bin.js:47:30)
+    at main (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\[4m.pnpm[24m\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\[4mts-node[24m\dist\bin.js:33:12)
+    at Object.<anonymous> (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\[4m.pnpm[24m\ts-node@10.9.2_@types+node@24.3.1_typescript@5.9.2\node_modules\[4mts-node[24m\dist\bin.js:579:5)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[90m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m {
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  requireStack: [
+    [32m'C:\\Users\\SONY\\Desktop\\pnpm_nx_setup\\apps\\cp-server\\imaginaryUncacheableRequireResolveScript'[39m
+  ]
+}
+
+Node.js v22.17.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+^C

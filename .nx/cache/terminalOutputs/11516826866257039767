@@ -1,0 +1,32 @@
+
+> ce-server@1.0.0 build C:\Users\SONY\Desktop\pnpm_nx_setup\apps\ce-server
+> rm -rf dist && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist && cp .env dist/.env
+
+X [ERROR] The entry point "server/index.ts" cannot be marked as external
+
+1 error
+node:child_process:922
+    throw err;
+    ^
+
+Error: Command failed: C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\.pnpm\@esbuild+win32-x64@0.25.9\node_modules\@esbuild\win32-x64\esbuild.exe server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+[90m    at genericNodeError (node:internal/errors:983:15)[39m
+[90m    at wrappedFn (node:internal/errors:537:14)[39m
+[90m    at checkExecSyncError (node:child_process:883:11)[39m
+[90m    at Object.execFileSync (node:child_process:919:15)[39m
+    at Object.<anonymous> (C:\Users\SONY\Desktop\pnpm_nx_setup\node_modules\[4m.pnpm[24m\esbuild@0.25.9\node_modules\[4mesbuild[24m\bin\esbuild:222:28)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[90m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m {
+  status: [33m1[39m,
+  signal: [1mnull[22m,
+  output: [ [1mnull[22m, [1mnull[22m, [1mnull[22m ],
+  pid: [33m9028[39m,
+  stdout: [1mnull[22m,
+  stderr: [1mnull[22m
+}
+
+Node.js v22.17.1
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

@@ -1,0 +1,79 @@
+
+> cp-server@1.0.0 dev
+> nodemon -r dotenv/config tsx src/index.ts
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsx src/index.ts`[39m
+'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsx src/index.ts`[39m
+'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsx src/index.ts`[39m
+'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsx src/index.ts`[39m
+'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsx src/index.ts`[39m
+'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsx src/index.ts`[39m
+'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsx src/index.ts`[39m
+'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsx src/index.ts`[39m
+'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsx src/index.ts`[39m
+'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsx src/index.ts`[39m
+(node:10028) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsx src/index.ts`[39m
+'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsx src/index.ts`[39m
+'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsx src/index.ts`[39m
+'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting child process[39m
+[32m[nodemon] starting `ts-node -r dotenv/config tsx src/index.ts`[39m
+'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m

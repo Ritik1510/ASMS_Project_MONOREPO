@@ -1,0 +1,48 @@
+{
+  "name": "ce-server",
+  "version": "1.0.0",
+  "description": "ASMS project backend server",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx index.ts",
+    "build": "rm -rf dist && esbuild index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist && cp .env dist/.env",
+    "start": "cross-env NODE_ENV=production node dist/index.js",
+    "check": "tsc",
+    "db:generate": "drizzle-kit generate --name",
+    "db:push": "drizzle-kit push",
+    "db:migrate": "tsx ./server/migrateToProd/migrate.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1",
+  "dependencies": {
+    "@jridgewell/trace-mapping": "^0.3.25",
+    "@neondatabase/serverless": "^0.10.4",
+    "connect-pg-simple": "^10.0.0",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.39.1",
+    "drizzle-zod": "^0.7.0",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "memorystore": "^1.6.7",
+    "nanoid": "^5.1.5",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "vite": "^7.1.4",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/connect-pg-simple": "^7.0.3",
+    "@types/express": "4.17.21",
+    "@types/express-session": "^1.18.0",
+    "@types/passport": "^1.0.16",
+    "@types/passport-local": "^1.0.38",
+    "@types/ws": "^8.5.13",
+    "cross-env": "^7.0.3",
+    "drizzle-kit": "^0.30.4",
+    "esbuild": "^0.25.0",
+    "tsx": "^4.19.1",
+    "typescript": "5.6.3"
+  }
+}
