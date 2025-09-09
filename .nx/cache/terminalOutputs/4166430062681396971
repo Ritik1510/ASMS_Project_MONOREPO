@@ -1,0 +1,8 @@
+
+> ce-server@1.0.0 build C:\Users\SONY\Desktop\pnpm_nx_setup\apps\ce-server
+> rm -rf dist && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist && cp .env dist/.env
+
+'esbuild' is not recognized as an internal or external command,
+operable program or batch file.
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[43m[30m WARN [39m[49m  Local package.json exists, but node_modules missing, did you mean to install?

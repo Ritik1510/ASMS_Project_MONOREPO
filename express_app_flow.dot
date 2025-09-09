@@ -1,0 +1,32 @@
+// Express App Flow
+digraph {
+	rankdir=LR size=8
+	A [label="Browser Request" fillcolor=lightblue shape=box style="rounded,filled"]
+	B [label="index.ts
+(Entry Point:
+connect & start server)" fillcolor=lightgreen shape=box style="rounded,filled"]
+	C [label="app.ts
+(Middlewares:
+CORS, JSON, urlencoded,
+cookies, static)" fillcolor=lightyellow shape=box style="rounded,filled"]
+	D [label="Routes
+(Endpoints: /register, /login,
+/public & protected routes)" fillcolor=lightpink shape=box style="rounded,filled"]
+	E [label="Middleware
+(Auth, validation,
+logging, etc.)" fillcolor=lightgrey shape=box style="rounded,filled"]
+	F [label="Controller
+(Business logic,
+DB operations)" fillcolor=orange shape=box style="rounded,filled"]
+	G [label="Response
+(JSON/Data)" fillcolor=lightcyan shape=box style="rounded,filled"]
+	H [label="Client
+(Frontend consumes response)" fillcolor=lightblue shape=box style="rounded,filled"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+}

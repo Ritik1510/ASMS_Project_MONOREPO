@@ -1,0 +1,29 @@
+
+> cp-server@1.0.0 dev C:\Users\SONY\Desktop\pnpm_nx_setup\apps\cp-server
+> nodemon -r dotenv/config ./src/index.ts
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): src\**\* config\**\*[39m
+[33m[nodemon] watching extensions: js,json,ts[39m
+[32m[nodemon] starting `ts-node -r dotenv/config ./src/index.ts`[39m
+'Nodemon started'
+
+ MONGODB connected !! DB HOST: ac-6mtg9eg-shard-00-00.e51yke5.mongodb.net
+Server is running at port : 8000
+[32m[nodemon] restarting due to changes...[39m
+'Restarting application...'
+[32m[nodemon] starting `ts-node -r dotenv/config ./src/index.ts`[39m
+'Nodemon started'
+[32m[nodemon] restarting due to changes...[39m
+'Restarting application...'
+[32m[nodemon] starting `ts-node -r dotenv/config ./src/index.ts`[39m
+'Nodemon started'
+
+ MONGODB connected !! DB HOST: ac-6mtg9eg-shard-00-01.e51yke5.mongodb.net
+Server is running at port : 8000
+[32m[nodemon] restarting child process[39m
+[32m[nodemon] starting `ts-node -r dotenv/config ./src/index.ts`[39m
+'Restarting application...'
+'Nodemon started'
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 3221225786.[39m

@@ -1,6 +1,6 @@
 import { pgTable, text, serial, integer, boolean, timestamp } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
-import { z } from "zod";
+import { email, z } from "zod";
 
 // seperate timestamps block
 export const timestamps = {
@@ -13,7 +13,8 @@ export const users = pgTable("users", {
   username: text("username").notNull().unique(),
   password: text("password").notNull(),
   role: text("role", { enum: ["tenant", "manager", "owner", "visitor", "security"] }).notNull(),
-  name: text("name").notNull(),
+  fullName: text("fullName").notNull(),
+  email: text("email").notNull().unique(),
 
   // new columns for timestamps 
   CratedAt: timestamp("created_at").notNull().defaultNow(),

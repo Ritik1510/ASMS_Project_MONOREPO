@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    /* File Layout */
+    "rootDir": "./src",               // source files
+    "outDir": "./dist",               // compiled JS output
+
+    /* Environment Settings */
+    "module": "NodeNext",             // Node.js ESM loader (use "CommonJS" if CJS project)
+    "target": "ES2020",               // modern JS
+    "moduleResolution": "NodeNext",   // how TS resolves modules
+    "types": ["node"],                // include Node.js types
+    "resolveJsonModule": true,        // allow importing JSON files
+
+    /* Outputs */
+    "sourceMap": true,                // enable sourcemaps for debugging
+    "declaration": true,              // generate .d.ts files (good for libraries, optional for apps)
+    "declarationMap": true,
+
+    /* Strict Type Checking */
+    "strict": true,                   // all strict checks
+    "noUncheckedIndexedAccess": true, // stricter array indexing
+    "exactOptionalPropertyTypes": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+
+    /* Style / Safety */
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,             // skip type-checking node_modules
+
+    /* Backend Specific */
+    "noEmit": true                    // ✅ if you want *type-check only*
+    // remove "noEmit" if you want compiled JS in /dist
+  },
+  "include": ["src/**/*.ts", "types/**/*.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}

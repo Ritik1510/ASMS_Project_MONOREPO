@@ -1,0 +1,44 @@
+{
+  "name": "cp-server",
+  "version": "1.0.0",
+  "description": "ASMS project backend server",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "build": "rm -rf dist && esbuild src/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist && cp .env dist/.env",
+    "start": "cross-env NODE_ENV=production node dist/index.js",
+    "check": "tsc",
+    "db:generate": "drizzle-kit generate --name",
+    "db:push": "drizzle-kit push",
+    "db:migrate": "tsx ./server/migrateToProd/migrate.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/cookie-parser": "^1.4.9",
+    "@types/cors": "^2.8.19",
+    "@types/express": "4.17.21",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.3.1",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
