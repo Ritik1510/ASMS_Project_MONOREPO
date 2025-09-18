@@ -1,0 +1,27 @@
+
+> cp-server@1.0.0 dev C:\Users\SONY\Desktop\pnpm_nx_setup\apps\cp-server
+> nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): 'src\**\*.ts'[39m
+[33m[nodemon] watching extensions: js,json,ts[39m
+[32m[nodemon] starting `'ts-node' src/index.ts`[39m
+''ts-node'' is not recognized as an internal or external command,
+operable program or batch file.
+'Nodemon started'
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] starting `'ts-node' src/index.ts`[39m
+'Nodemon started'
+'Restarting application...'
+''ts-node'' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting child process[39m
+[32m[nodemon] starting `'ts-node' src/index.ts`[39m
+'Nodemon started'
+''ts-node'' is not recognized as an internal or external command,
+operable program or batch file.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+'Restarting application...'
+^C[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 3221225786.[39m

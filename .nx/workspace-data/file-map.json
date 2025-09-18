@@ -5,86 +5,97 @@
   "nxJsonPlugins": [],
   "fileMap": {
     "projectFileMap": {
-      "client": [
+      "ce-server": [
         {
-          "file": "apps/test-client/.gitignore",
-          "hash": "13046175384202504187"
+          "file": "apps/ce-server/auth.ts",
+          "hash": "12209342990208723159"
         },
         {
-          "file": "apps/test-client/README.md",
-          "hash": "230519711145761115"
+          "file": "apps/ce-server/db.ts",
+          "hash": "14741032254319177987"
         },
         {
-          "file": "apps/test-client/eslint.config.js",
-          "hash": "142212017292357276"
+          "file": "apps/ce-server/drizzleMigrations/0000_nice_silver_fox.sql",
+          "hash": "7118501694212781596"
         },
         {
-          "file": "apps/test-client/index.html",
-          "hash": "4025202329384162906"
+          "file": "apps/ce-server/drizzleMigrations/0001_fixing-timestamp-issue.sql",
+          "hash": "11596478815584307236"
         },
         {
-          "file": "apps/test-client/package.json",
-          "hash": "14776081154278964544",
+          "file": "apps/ce-server/drizzleMigrations/meta/0000_snapshot.json",
+          "hash": "6211853742209644564"
+        },
+        {
+          "file": "apps/ce-server/drizzleMigrations/meta/0001_snapshot.json",
+          "hash": "16752322984466505666"
+        },
+        {
+          "file": "apps/ce-server/drizzleMigrations/meta/_journal.json",
+          "hash": "6644230789329635566"
+        },
+        {
+          "file": "apps/ce-server/index.ts",
+          "hash": "2660314407404116810"
+        },
+        {
+          "file": "apps/ce-server/migrateToProd/migrate.ts",
+          "hash": "6424266602529287694"
+        },
+        {
+          "file": "apps/ce-server/package.json",
+          "hash": "10059062302130523636",
           "deps": [
-            "npm:@eslint/js",
-            "npm:@types/react@19.1.12",
-            "npm:@types/react-dom@19.1.9",
-            "npm:@vitejs/plugin-react@5.0.2",
-            "npm:eslint",
-            "npm:eslint-plugin-react-hooks",
-            "npm:eslint-plugin-react-refresh",
-            "npm:globals@16.3.0",
-            "npm:typescript@5.8.3",
-            "npm:typescript-eslint",
+            "npm:@types/connect-pg-simple",
+            "npm:@types/express",
+            "npm:@types/express-session",
+            "npm:@types/passport",
+            "npm:@types/passport-local",
+            "npm:@types/ws",
+            "npm:cross-env",
+            "npm:drizzle-kit",
+            "npm:esbuild@0.25.9",
+            "npm:tsx",
+            "npm:typescript@5.6.3",
+            "npm:@jridgewell/trace-mapping",
+            "npm:@neondatabase/serverless",
+            "npm:connect-pg-simple",
+            "npm:dotenv",
+            "npm:drizzle-orm@0.39.3",
+            "npm:drizzle-zod@0.7.1",
+            "npm:express",
+            "npm:express-session",
+            "npm:memorystore",
+            "npm:nanoid@5.1.5",
+            "npm:passport",
+            "npm:passport-local",
             "npm:vite@7.1.4",
-            "npm:react@19.1.1",
-            "npm:react-dom@19.1.1",
-            "shared-ui"
+            "npm:ws"
           ]
         },
         {
-          "file": "apps/test-client/public/vite.svg",
-          "hash": "16046085400642193116"
+          "file": "apps/ce-server/routes.ts",
+          "hash": "12842557009072704597"
         },
         {
-          "file": "apps/test-client/src/App.css",
-          "hash": "3739391659270974612"
+          "file": "apps/ce-server/storage.ts",
+          "hash": "9986204177535766418"
         },
         {
-          "file": "apps/test-client/src/App.tsx",
-          "hash": "1519136803829741833"
+          "file": "apps/ce-server/types.ts",
+          "hash": "7652902836108820851"
         },
         {
-          "file": "apps/test-client/src/assets/react.svg",
-          "hash": "16069471864800376455"
+          "file": "apps/ce-server/utils/ApiErrors.ts",
+          "hash": "10622752260809179254"
         },
         {
-          "file": "apps/test-client/src/index.css",
-          "hash": "13504153635654440336"
+          "file": "apps/ce-server/utils/ApiResponses.ts",
+          "hash": "5628943987154460788"
         },
         {
-          "file": "apps/test-client/src/main.tsx",
-          "hash": "11038211546439381838"
-        },
-        {
-          "file": "apps/test-client/src/vite-env.d.ts",
-          "hash": "12946363841406869089"
-        },
-        {
-          "file": "apps/test-client/tsconfig.app.json",
-          "hash": "17915403376949929233"
-        },
-        {
-          "file": "apps/test-client/tsconfig.json",
-          "hash": "2365188958523842680"
-        },
-        {
-          "file": "apps/test-client/tsconfig.node.json",
-          "hash": "12526670948656573966"
-        },
-        {
-          "file": "apps/test-client/vite.config.ts",
-          "hash": "16225914092815047172"
+          "file": "apps/ce-server/vite.ts",
+          "hash": "4607421521103795526"
         }
       ],
       "@ce/db": [
@@ -106,32 +117,132 @@
         },
         {
           "file": "packages/db/schemas.ts",
-          "hash": "6823666895664002600"
+          "hash": "10179748442986224757"
         },
         {
           "file": "packages/db/tsconfig.json",
           "hash": "584633282280055937"
         }
       ],
-      "shared-ui": [
+      "cp-server": [
         {
-          "file": "packages/shared-ui/index.tsx",
-          "hash": "17906714113424732712"
+          "file": "apps/cp-server/.env.sample",
+          "hash": "596133767763759640"
         },
         {
-          "file": "packages/shared-ui/package.json",
-          "hash": "6327900429874178652",
+          "file": "apps/cp-server/.gitignore",
+          "hash": "14725284700061427656"
+        },
+        {
+          "file": "apps/cp-server/Flow.md",
+          "hash": "2454945482251364887"
+        },
+        {
+          "file": "apps/cp-server/env.d.ts",
+          "hash": "859483056768106454"
+        },
+        {
+          "file": "apps/cp-server/image.png",
+          "hash": "10756856544464070857"
+        },
+        {
+          "file": "apps/cp-server/nodemon.json",
+          "hash": "6337317941708510538"
+        },
+        {
+          "file": "apps/cp-server/package.json",
+          "hash": "8113669158769110073",
           "deps": [
-            "npm:@types/react@19.1.12",
-            "npm:@types/react-dom@19.1.9",
-            "npm:typescript@5.8.3",
-            "npm:react@19.1.1",
-            "npm:zod@3.25.76"
+            "npm:@types/bcrypt",
+            "npm:@types/cookie-parser",
+            "npm:@types/cors",
+            "npm:@types/express",
+            "npm:@types/jsonwebtoken",
+            "npm:@types/multer",
+            "npm:@types/node",
+            "npm:nodemon",
+            "npm:prettier",
+            "npm:ts-node",
+            "npm:typescript@5.9.2",
+            "npm:bcrypt",
+            "npm:cloudinary",
+            "npm:cookie-parser",
+            "npm:cors",
+            "npm:dotenv",
+            "npm:express",
+            "npm:jsonwebtoken",
+            "npm:mongoose",
+            "npm:mongoose-aggregate-paginate-v2",
+            "npm:multer"
           ]
         },
         {
-          "file": "packages/shared-ui/ui/Sample.tsx",
-          "hash": "15738597830850664157"
+          "file": "apps/cp-server/src/app.ts",
+          "hash": "7535625500648104619"
+        },
+        {
+          "file": "apps/cp-server/src/constants.ts",
+          "hash": "12120844972912179086"
+        },
+        {
+          "file": "apps/cp-server/src/controllers/user.controllers.ts",
+          "hash": "17421077247660849944"
+        },
+        {
+          "file": "apps/cp-server/src/db/connectDB.ts",
+          "hash": "5084295162831051206"
+        },
+        {
+          "file": "apps/cp-server/src/index.ts",
+          "hash": "381545102709582521"
+        },
+        {
+          "file": "apps/cp-server/src/middlewares/auth.middleware.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/cp-server/src/models/announcements.model.ts",
+          "hash": "17913785479732961315"
+        },
+        {
+          "file": "apps/cp-server/src/models/apartment.model.ts",
+          "hash": "14111542882497379970"
+        },
+        {
+          "file": "apps/cp-server/src/models/maintenanceRequest.model.ts",
+          "hash": "6887741378627484249"
+        },
+        {
+          "file": "apps/cp-server/src/models/payment.ts",
+          "hash": "11160153416820477222"
+        },
+        {
+          "file": "apps/cp-server/src/models/user.models.ts",
+          "hash": "15949748704677911581"
+        },
+        {
+          "file": "apps/cp-server/src/models/visitors.model.ts",
+          "hash": "17444548153162206409"
+        },
+        {
+          "file": "apps/cp-server/src/routes/user.route.ts",
+          "hash": "15390487347392694171"
+        },
+        {
+          "file": "apps/cp-server/src/utils/ApiError.ts",
+          "hash": "250929566031308602"
+        },
+        {
+          "file": "apps/cp-server/src/utils/ApiResponse.ts",
+          "hash": "13163477548468990714"
+        },
+        {
+          "file": "apps/cp-server/src/utils/asyncHandler.ts",
+          "hash": "10842164376384556200"
+        },
+        {
+          "file": "apps/cp-server/tsconfig.json",
+          "hash": "10308888052230904231"
         }
       ],
       "ce-client": [
@@ -453,7 +564,7 @@
         },
         {
           "file": "apps/ce-client/src/pages/auth-page.tsx",
-          "hash": "7396810580306789105"
+          "hash": "1655058581766451122"
         },
         {
           "file": "apps/ce-client/src/pages/dashboard.tsx",
@@ -496,218 +607,107 @@
           "hash": "4154551912983398971"
         }
       ],
-      "cp-server": [
+      "shared-ui": [
         {
-          "file": "apps/cp-server/.env.sample",
-          "hash": "596133767763759640"
+          "file": "packages/shared-ui/index.tsx",
+          "hash": "17906714113424732712"
         },
         {
-          "file": "apps/cp-server/.gitignore",
-          "hash": "14725284700061427656"
-        },
-        {
-          "file": "apps/cp-server/Flow.md",
-          "hash": "2454945482251364887"
-        },
-        {
-          "file": "apps/cp-server/env.d.ts",
-          "hash": "859483056768106454"
-        },
-        {
-          "file": "apps/cp-server/image.png",
-          "hash": "10756856544464070857"
-        },
-        {
-          "file": "apps/cp-server/nodemon.json",
-          "hash": "6337317941708510538"
-        },
-        {
-          "file": "apps/cp-server/package.json",
-          "hash": "8113669158769110073",
+          "file": "packages/shared-ui/package.json",
+          "hash": "6327900429874178652",
           "deps": [
-            "npm:@types/bcrypt",
-            "npm:@types/cookie-parser",
-            "npm:@types/cors",
-            "npm:@types/express",
-            "npm:@types/jsonwebtoken",
-            "npm:@types/multer",
-            "npm:@types/node",
-            "npm:nodemon",
-            "npm:prettier",
-            "npm:ts-node",
-            "npm:typescript@5.9.2",
-            "npm:bcrypt",
-            "npm:cloudinary",
-            "npm:cookie-parser",
-            "npm:cors",
-            "npm:dotenv",
-            "npm:express",
-            "npm:jsonwebtoken",
-            "npm:mongoose",
-            "npm:mongoose-aggregate-paginate-v2",
-            "npm:multer"
+            "npm:@types/react@19.1.12",
+            "npm:@types/react-dom@19.1.9",
+            "npm:typescript@5.8.3",
+            "npm:react@19.1.1",
+            "npm:zod@3.25.76"
           ]
         },
         {
-          "file": "apps/cp-server/src/app.ts",
-          "hash": "7535625500648104619"
-        },
-        {
-          "file": "apps/cp-server/src/constants.ts",
-          "hash": "12120844972912179086"
-        },
-        {
-          "file": "apps/cp-server/src/controllers/user.controllers.ts",
-          "hash": "17421077247660849944"
-        },
-        {
-          "file": "apps/cp-server/src/db/connectDB.ts",
-          "hash": "5084295162831051206"
-        },
-        {
-          "file": "apps/cp-server/src/index.ts",
-          "hash": "381545102709582521"
-        },
-        {
-          "file": "apps/cp-server/src/middlewares/auth.middleware.ts",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/cp-server/src/models/announcements.model.ts",
-          "hash": "17913785479732961315"
-        },
-        {
-          "file": "apps/cp-server/src/models/apartment.model.ts",
-          "hash": "14111542882497379970"
-        },
-        {
-          "file": "apps/cp-server/src/models/maintenanceRequest.model.ts",
-          "hash": "6887741378627484249"
-        },
-        {
-          "file": "apps/cp-server/src/models/payment.ts",
-          "hash": "11160153416820477222"
-        },
-        {
-          "file": "apps/cp-server/src/models/user.models.ts",
-          "hash": "15949748704677911581"
-        },
-        {
-          "file": "apps/cp-server/src/models/visitors.model.ts",
-          "hash": "17444548153162206409"
-        },
-        {
-          "file": "apps/cp-server/src/routes/user.route.ts",
-          "hash": "15390487347392694171"
-        },
-        {
-          "file": "apps/cp-server/src/utils/ApiError.ts",
-          "hash": "250929566031308602"
-        },
-        {
-          "file": "apps/cp-server/src/utils/ApiResponse.ts",
-          "hash": "13163477548468990714"
-        },
-        {
-          "file": "apps/cp-server/src/utils/asyncHandler.ts",
-          "hash": "10842164376384556200"
-        },
-        {
-          "file": "apps/cp-server/tsconfig.json",
-          "hash": "10308888052230904231"
+          "file": "packages/shared-ui/ui/Sample.tsx",
+          "hash": "15738597830850664157"
         }
       ],
-      "ce-server": [
+      "client": [
         {
-          "file": "apps/ce-server/auth.ts",
-          "hash": "12209342990208723159"
+          "file": "apps/test-client/.gitignore",
+          "hash": "13046175384202504187"
         },
         {
-          "file": "apps/ce-server/db.ts",
-          "hash": "14741032254319177987"
+          "file": "apps/test-client/README.md",
+          "hash": "230519711145761115"
         },
         {
-          "file": "apps/ce-server/drizzleMigrations/0000_nice_silver_fox.sql",
-          "hash": "7118501694212781596"
+          "file": "apps/test-client/eslint.config.js",
+          "hash": "142212017292357276"
         },
         {
-          "file": "apps/ce-server/drizzleMigrations/0001_fixing-timestamp-issue.sql",
-          "hash": "11596478815584307236"
+          "file": "apps/test-client/index.html",
+          "hash": "4025202329384162906"
         },
         {
-          "file": "apps/ce-server/drizzleMigrations/meta/0000_snapshot.json",
-          "hash": "6211853742209644564"
-        },
-        {
-          "file": "apps/ce-server/drizzleMigrations/meta/0001_snapshot.json",
-          "hash": "16752322984466505666"
-        },
-        {
-          "file": "apps/ce-server/drizzleMigrations/meta/_journal.json",
-          "hash": "6644230789329635566"
-        },
-        {
-          "file": "apps/ce-server/index.ts",
-          "hash": "2660314407404116810"
-        },
-        {
-          "file": "apps/ce-server/migrateToProd/migrate.ts",
-          "hash": "6424266602529287694"
-        },
-        {
-          "file": "apps/ce-server/package.json",
-          "hash": "10059062302130523636",
+          "file": "apps/test-client/package.json",
+          "hash": "14776081154278964544",
           "deps": [
-            "npm:@types/connect-pg-simple",
-            "npm:@types/express",
-            "npm:@types/express-session",
-            "npm:@types/passport",
-            "npm:@types/passport-local",
-            "npm:@types/ws",
-            "npm:cross-env",
-            "npm:drizzle-kit",
-            "npm:esbuild@0.25.9",
-            "npm:tsx",
-            "npm:typescript@5.6.3",
-            "npm:@jridgewell/trace-mapping",
-            "npm:@neondatabase/serverless",
-            "npm:connect-pg-simple",
-            "npm:dotenv",
-            "npm:drizzle-orm@0.39.3",
-            "npm:drizzle-zod@0.7.1",
-            "npm:express",
-            "npm:express-session",
-            "npm:memorystore",
-            "npm:nanoid@5.1.5",
-            "npm:passport",
-            "npm:passport-local",
+            "npm:@eslint/js",
+            "npm:@types/react@19.1.12",
+            "npm:@types/react-dom@19.1.9",
+            "npm:@vitejs/plugin-react@5.0.2",
+            "npm:eslint",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:globals@16.3.0",
+            "npm:typescript@5.8.3",
+            "npm:typescript-eslint",
             "npm:vite@7.1.4",
-            "npm:ws"
+            "npm:react@19.1.1",
+            "npm:react-dom@19.1.1",
+            "shared-ui"
           ]
         },
         {
-          "file": "apps/ce-server/routes.ts",
-          "hash": "12842557009072704597"
+          "file": "apps/test-client/public/vite.svg",
+          "hash": "16046085400642193116"
         },
         {
-          "file": "apps/ce-server/storage.ts",
-          "hash": "9986204177535766418"
+          "file": "apps/test-client/src/App.css",
+          "hash": "3739391659270974612"
         },
         {
-          "file": "apps/ce-server/types.ts",
-          "hash": "7652902836108820851"
+          "file": "apps/test-client/src/App.tsx",
+          "hash": "1519136803829741833"
         },
         {
-          "file": "apps/ce-server/utils/ApiErrors.ts",
-          "hash": "10622752260809179254"
+          "file": "apps/test-client/src/assets/react.svg",
+          "hash": "16069471864800376455"
         },
         {
-          "file": "apps/ce-server/utils/ApiResponses.ts",
-          "hash": "5628943987154460788"
+          "file": "apps/test-client/src/index.css",
+          "hash": "13504153635654440336"
         },
         {
-          "file": "apps/ce-server/vite.ts",
-          "hash": "4607421521103795526"
+          "file": "apps/test-client/src/main.tsx",
+          "hash": "11038211546439381838"
+        },
+        {
+          "file": "apps/test-client/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "apps/test-client/tsconfig.app.json",
+          "hash": "17915403376949929233"
+        },
+        {
+          "file": "apps/test-client/tsconfig.json",
+          "hash": "2365188958523842680"
+        },
+        {
+          "file": "apps/test-client/tsconfig.node.json",
+          "hash": "12526670948656573966"
+        },
+        {
+          "file": "apps/test-client/vite.config.ts",
+          "hash": "16225914092815047172"
         }
       ]
     },

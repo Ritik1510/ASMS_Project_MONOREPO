@@ -1,18 +1,18 @@
 {
   "run": {
-    "command": "nx dev ce-client",
-    "startTime": "2025-09-08T05:51:16.224Z",
-    "endTime": "2025-09-08T06:16:05.591Z",
+    "command": "nx dev cp-server",
+    "startTime": "2025-09-15T16:34:12.581Z",
+    "endTime": "2025-09-15T16:36:36.127Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "ce-client:dev",
+      "taskId": "cp-server:dev",
       "target": "dev",
-      "projectName": "ce-client",
-      "hash": "17094576579510575578",
-      "startTime": "2025-09-08T05:51:16.273Z",
-      "endTime": "2025-09-08T06:16:05.481Z",
+      "projectName": "cp-server",
+      "hash": "13631499625449745366",
+      "startTime": "2025-09-15T16:34:12.647Z",
+      "endTime": "2025-09-15T16:36:36.124Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1
