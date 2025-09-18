@@ -4,7 +4,7 @@
   "description": "ASMS project backend server",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec src/index.ts",
     "build": "rm -rf dist && esbuild src/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist && cp .env dist/.env",
     "start": "cross-env NODE_ENV=production node dist/index.js",
     "check": "tsc",
